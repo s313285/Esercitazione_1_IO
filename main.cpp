@@ -20,8 +20,7 @@ int main()
 	
 	std::ofstream fout("result.txt");
 	
-	std::string tmp;   /* tmp=temporaneo */
-	std::getline(file, tmp);
+	std::string tmp = "# N Mean";   
 	fout << tmp << std::endl;
 	
 	fout << std::setprecision(16) << std::scientific;
